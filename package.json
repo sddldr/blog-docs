@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "cross-env BUILD_ENV=\"develop\" vuepress dev docs",
+    "build": "cross-env BUILD_ENV=\"product\" vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "vuepress": "^1.8.2"
   }
 }

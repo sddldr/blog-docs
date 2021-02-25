@@ -17,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "post-commit": "bash deploy.sh"
+      "post-commit": "npm run deploy"
     }
   }
 }

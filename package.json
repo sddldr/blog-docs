@@ -12,6 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "husky": "^5.1.1",
     "vuepress": "^1.8.2"
+  },
+  "husky": {
+    "hooks": {
+      "post-commit": "npm run deploy"
+    }
   }
 }

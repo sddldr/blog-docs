@@ -20,7 +20,7 @@ module.exports = {
         ],
         sidebar: {
           '/goodPoem/': [
-            '我有个想念的人',
+            'la',
           ],
           '/tech/webpack/': [
             '/tech/webpack/ad'

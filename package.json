@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env BUILD_ENV=\"develop\" vuepress dev docs",
+    "dev": "cross-env BUILD_ENV=\"develop\" vuepress dev docs --temp .temp",
     "build": "cross-env BUILD_ENV=\"product\" vuepress build docs",
     "deploy": "bash deploy.sh"
   },
